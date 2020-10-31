@@ -1,14 +1,14 @@
 const btn = document.querySelector('.talk');
 const content = document.querySelector('.content');
 const greetings = [
-    'mere samne vali khidki pe ek chand ka tukda rehta hai',
-    'Isme mera ghaata tera kuch nahi jaata','Han Apna Kaam Kar',
-    'Mai Kyun Karu Bhai',
-    'Tu apna dekh',
-    'Nikal yaha se',
-    'Tera Kya jaa raha hai',
-    'I am good unlike you',
-    'tere muh pe chhipkali'
+    'Apna kaam kar',
+    'Waat lag gyi bhai',
+    'Du kya',
+    'kuch bhi kuch bhi',
+    'Apne baap ko mat sikha',
+    'Gu jaisa  mu',
+    'shakal dekhi hai apni',
+    'magarmachh ke aansu mat ro'
 ];
 const speechRecognition = 
     window.speechRecognition || window.webkitSpeechRecognition;
