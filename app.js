@@ -16,7 +16,7 @@ const recognition = new speechRecognition();
 recognition.lang = 'hi-IN'
 
 recognition.onstart = function() {
-    console.log('Voice is activated, you can speak to microphone');
+    content.textContent='Voice is activated, you can speak to microphone';
 
 };
 
